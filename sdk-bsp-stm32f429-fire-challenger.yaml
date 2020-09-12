@@ -92,6 +92,14 @@ docs:
   title: STM32F429 Datasheet
 example_projects: []
 features:
+- "MCU: STM32F429IGT6, 180MHz, 1024KB FLASH, 256KB RAM"
+- "External RAM: IS42S16400J（SDRAM, 8MB）"
+- "External FLASH: W25Q128（SPI, 16MB）"
+- "LED: RGB"
+- "Buttons: K1（Wake-up，PA0, K2（PC13）"
+- "Interface: USB-Serial、SD Card、Ethernet、LCD"
+- "Debug: JTAG/SWD"
+features_zh:
 - MCU：STM32F429IGT6，主频 180MHz，1024KB FLASH ，256KB RAM
 - 外部 RAM：IS42S16400J（SDRAM，8MB）
 - 外部 FLASH：W25Q128（SPI，16MB）
@@ -102,4 +110,4 @@ features:
 pkg_type: Board_Support_Packages
 pkg_vendor: RealThread
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
